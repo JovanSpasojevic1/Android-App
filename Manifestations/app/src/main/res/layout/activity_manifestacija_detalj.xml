@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/butto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManifestacijaDetaljActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:id="@+id/manifestacijaContentDetalj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelNazivDetalj"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="Naziv Manifestacije" />
+
+        <TextView
+            android:id="@+id/labelMestoDetalj"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="Mesto Manifestacije" />
+
+        <TextView
+            android:id="@+id/labelDatumPocetkaDetalj"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="Datum Pocetka" />
+
+        <TextView
+            android:id="@+id/labelDatumKrajaDetalj"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="Datum Kraja" />
+
+        <TextView
+            android:id="@+id/labelOpisDetalj"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:text="Opis" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onBackButtonClicked"
+        android:text="Back" />
+</LinearLayout>

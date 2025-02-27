@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentHomeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Add Button -->
+    <ImageView
+        android:id="@+id/imgDODAJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:contentDescription="Add"
+        android:padding="8dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <!-- Scrollable List of Manifestacije -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Manifestacija items will be added here dynamically -->
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

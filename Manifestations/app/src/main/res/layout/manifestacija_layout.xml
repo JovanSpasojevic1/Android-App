@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_border"
+    android:elevation="8dp">
+
+    <!-- Image of the manifestation -->
+<ImageView
+android:id="@+id/labelSlikaSVE"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:layout_gravity="center_horizontal"
+android:scaleType="centerCrop"
+android:src="@drawable/livada"
+android:layout_marginBottom="16dp" />
+
+
+<LinearLayout
+android:id="@+id/manifestacijaContent"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/labelNaziv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:gravity="center_horizontal"
+    android:text="Naziv Manifestacije"
+    android:textColor="#1a1a1a"
+    android:textSize="18sp"
+    android:textStyle="bold" /> <!-- Povećana veličina i podebljan tekst -->
+
+<TextView
+    android:id="@+id/labelMesto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:gravity="center_horizontal"
+    android:text="Mesto Manifestacije"
+    android:textColor="#666666"
+    android:textSize="14sp"
+    android:textStyle="italic" /> <!-- Italic za dodatni stil -->
+
+<TextView
+    android:id="@+id/labelDatumPocetka"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:gravity="center_horizontal"
+    android:text="Datum Pocetka"
+    android:textColor="#666666"
+    android:textSize="14sp" />
+
+<TextView
+    android:id="@+id/labelDatumKraja"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:gravity="center_horizontal"
+    android:text="Datum Kraja"
+    android:textColor="#666666"
+    android:textSize="14sp" />
+</LinearLayout>
+
+    <!-- Layout for buttons (delete and edit) -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:gravity="center"
+android:orientation="horizontal">
+
+<!-- Delete button -->
+    <ImageView
+        android:id="@+id/labelDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_delete"
+        android:tint="@android:color/holo_red_dark" />
+
+<!-- Edit button -->
+    <ImageView
+        android:id="@+id/labelEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:tint="@android:color/holo_blue_dark" />
+
+<!-- Favorite button -->
+    <ImageView
+        android:id="@+id/labelFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:src="@android:drawable/btn_star" />
+</LinearLayout>
+
+    </LinearLayout>
+
+
+

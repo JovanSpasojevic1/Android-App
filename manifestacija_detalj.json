@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "naziv": "Manifestacija 1",
+        "mesto": "Mesto 1",
+        "opis": "Opis 1",
+        "datumPocetka": "01-10-2023",
+        "datumKraja": "05-10-2023"
+    },
+    {
+        "id": 2,
+        "naziv": "Manifestacija 2",
+        "mesto": "Mesto 2",
+        "opis": "Opis 2",
+        "datumPocetka": "06-10-2024",
+        "datumKraja": "08-10-2024"
+    },
+    {
+        "id": 3,
+        "naziv": "Manifestacija 3",
+        "mesto": "Mesto 3",
+        "opis": "Opis 3",
+        "datumPocetka": "10-10-2024",
+        "datumKraja": "14-10-2024"
+    },
+    {
+        "id": 4,
+        "naziv": "Manifestacija 4",
+        "mesto": "Mesto 4",
+        "opis": "Opis 4",
+        "datumPocetka": "02-10-2024",
+        "datumKraja": "05-10-2024"
+    },
+    {
+        "id": 5,
+        "naziv": "Manifestacija 5",
+        "mesto": "Mesto 5",
+        "opis": "Opis 5",
+        "datumPocetka": "13-10-2024",
+        "datumKraja": "15-10-2024"
+    },
+    {
+        "id": 6,
+        "naziv": "Manifestacija 6",
+        "mesto": "Mesto 6",
+        "opis": "Opis 6",
+        "datumPocetka": "01-09-2023",
+        "datumKraja": "03-10-2023"
+    },
+    {
+        "id": 7,
+        "naziv": "Manifestacija 7",
+        "mesto": "Mesto 7",
+        "opis": "Opis 7",
+        "datumPocetka": "01-01-2024",
+        "datumKraja": "03-01-2024"
+    }
+]
